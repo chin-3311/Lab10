@@ -18,3 +18,5 @@ Open Welcome Page
 Input Search
     Input Text     q    www.cs.kku.ac.th
     Submit Form    tsf
+	Wait Until Page Contains    www.cs.kku.ac.th
+	[Teardown]    Close Browser
